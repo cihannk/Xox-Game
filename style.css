@@ -1,0 +1,63 @@
+
+.container {
+    margin-top: 5%;
+    justify-content: space-around;
+}
+
+td {
+    width: 5em;
+    height: 5em;
+    background-color: #353535;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container #game {
+    display:flex;
+    justify-content: center;
+}
+
+#winner {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight:500;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#winner button {
+    background-color: #312f31;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#line-1 {
+    
+}
+
+#line-2 {
+    border-top: 1px solid #312f31;
+    margin-left: 45%;
+    height: inherit;
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
+    text-align: center;
+    
+}
+
+#line-2 p {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+#reset-score{
+    width: 100%;
+    height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #312f31;
+    color: white;
+}
